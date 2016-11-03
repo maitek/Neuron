@@ -1,3 +1,4 @@
 /data_sets/*
 *.png
 *.jpg
+*.DS_Store

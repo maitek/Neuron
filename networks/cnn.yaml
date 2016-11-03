@@ -1,0 +1,14 @@
+Layers:
+  # Input layer should the dimension of your data
+  - {layer: "InputLayer", shape: [28, 28, 1]}
+  - {layer: "DropoutLayer", p: 0.2 }
+  - {layer: "Conv2DLayer", num_filters: 16, filter_size: [3,3], nonlinearity: "rectify"}
+  - {layer: "DropoutLayer", p: 0.5 }
+  - {layer: "Conv2DLayer", num_filters: 16, filter_size: [3,3], nonlinearity: "rectify"}
+  - {layer: "DropoutLayer", p: 0.5 }
+  - {layer: "DenseLayer", num_units: 10, nonlinearity: "softmax"}
+
+
+
+ 
+

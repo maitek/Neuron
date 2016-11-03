@@ -6,7 +6,7 @@ import theano.tensor as T
 
 
 # load training config
-config_file = 'data/mnist/mnist_config.yaml'
+config_file = 'networks/cnn.yaml'
 with open(config_file, 'r') as f:
     network_config = yaml.load(f)
 
