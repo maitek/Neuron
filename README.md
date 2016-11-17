@@ -1,2 +1,2 @@
 # Neuron
-A small deep learning framework
+A small deep learning projects
