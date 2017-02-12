@@ -1,2 +1,2 @@
 # Neuron
-A small deep learning projects
+A small deep learning project
